@@ -646,7 +646,7 @@ input[type='checkbox'] {
 	padding-bottom: 0.375rem;
 	background-color: #113448;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+	font: 800 1.200rem/1.200rem "Calibri", sans-serif;
 	transition: all 0.2s;
 }
 
