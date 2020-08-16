@@ -1,0 +1,152 @@
+.pricing-plan{
+  width:300px;
+border-radius:20px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+overflow:hidden;
+font-family:"Lato",sans-serif;
+font-size:16px;
+line-height:1;/*originally 1.5 #9970e0*/
+color:#555555;
+margin: 15px;
+background: linear-gradient(to bottom,#cc0099,#0099ff);
+border-right:0px;
+padding: 0 0 0 5px;
+/*border-image:linear-gradient(to bottom,#cc0099,#0099ff)1 100%;*/
+}
+.inherit{
+  width: 100%;
+  padding: 0 0 0 1px;
+  background: #fff;
+}
+
+
+h5 {
+font-family:verdana;
+color:grey;
+  display: flex;
+  flex-direction: row;
+}
+ h5:after{
+  content:"";
+  flex: 1 1;
+  border-bottom: 1px solid grey/*#000*/;
+  margin: auto;
+}
+/*h5:before {
+  margin-right: 10px
+}*/
+h5:after {
+  margin-left:10px;
+}
+
+.pricing-plan-header{
+  font-family:verdana;
+  padding:15px;/*originally 25px*/
+  background:#5973e6/*rgb(150,255,255)*/	;
+  color:white;/*originally #cc0099*/
+}
+
+.pricing-plan-title,
+.pricing-plan-summary{
+  margin:0;
+  text-align:center;
+}
+
+.pricing-plan-title{
+  font-size:0.6cm;
+  font-weight:600;
+}
+
+.pricing-plan-summary{
+  font-size:0.5cm;
+  font-weight:400;
+}
+
+.pricing-plan-description{
+  padding:10px;/*originally 25px*/
+}
+
+.pricing-plan-list{
+  padding:0;
+  margin:0;
+}
+
+.pricing-plan-feature{
+  list-style:none;
+  margin:0;
+  padding-left:25px;
+  position:relative;
+  font-size:0.4cm;
+}
+
+.discount-tag {
+    position: absolute;
+    background: #c724b1;
+    font-size: 12px;
+    padding: 3px 6px 2px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 1;
+    bottom: -11px;
+    font-weight: 600;
+}
+
+
+.pricing-plan-feature:not(:last-child)
+{margin-bottom:0.5cm;}
+
+.pricing-plan-feature::before{
+/*  content:"\2714";
+  color:#009578;*/
+  color:black;
+  position:absolute;
+  left:0;
+}
+
+
+.pricing-plan-action{
+  padding:25px;
+  border-top:1px solid #eeeeee;
+  display:flex;
+  flex-direction:column;
+  }
+
+  .pricing-plan-button{
+    display:inline-block;
+    margin:15px auto;
+    padding:8px 20px;
+    text-decoration:none;
+    color:#0099ff;
+    background:#ffffff;
+    border-radius:5px;
+    border:1px solid #cc0099;
+    text-transform:uppercase;
+    letter-spacing:0.02em;
+    font-weight:bold;
+  }
+
+  .pricing-plan-button:hover{
+    background:#cc0099;
+    color:#ffffff;
+  }
+
+.pricing-plan-cost{
+  margin:0;
+  text-align:center;
+  font-size:0.5cm;
+  color:#000000;
+}
+
+.pricing-plan-text{
+  font-size:0.3cm;
+  text-align:center;
+  margin: 0 0 10px 9;
+}
+
+.pricing-plan-container{
+  display:flex;
+  align-items:center;
+  border-left:0.5cm;
+  justify-content:center;
+  padding:10px;
+}
