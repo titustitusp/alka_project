@@ -20,13 +20,13 @@ padding: 0 0 0 5px;
 }
 
 
-h5 {
+.pricing-plan h5 {
 font-family:verdana;
 color:grey;
   display: flex;
   flex-direction: row;
 }
- h5:after{
+ .pricing-plan h5:after{
   content:"";
   flex: 1 1;
   border-bottom: 1px solid grey/*#000*/;
@@ -35,13 +35,16 @@ color:grey;
 /*h5:before {
   margin-right: 10px
 }*/
-h5:after {
+.pricing-plan h5:after {
   margin-left:10px;
+}
+.pricing-plan h1{
+  color:white;
 }
 
 .pricing-plan-header{
   font-family:verdana;
-  padding:15px;/*originally 25px*/
+  padding:1px;/*originally 25px*/
   background:#5973e6/*rgb(150,255,255)*/	;
   color:white;/*originally #cc0099*/
 }
@@ -79,7 +82,7 @@ h5:after {
   font-size:0.4cm;
 }
 
-.discount-tag {
+/* .discount-tag {
     position: absolute;
     background: #c724b1;
     font-size: 12px;
@@ -89,7 +92,7 @@ h5:after {
     line-height: 1;
     bottom: -11px;
     font-weight: 600;
-}
+} */
 
 
 .pricing-plan-feature:not(:last-child)
