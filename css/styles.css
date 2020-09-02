@@ -41,8 +41,25 @@ Colors:
 - Body text - gray #787976
 - Body text - light gray #dfe5ec
 ******************************************/
+/*image slider*/
+/*.carousel-item
+{padding-top:50px;
+padding-bottom:50px;
+padding-right:60px;
+padding-left:60px;}*/
 
-
+.carousel-caption h1{
+  color:#fff;
+}
+.carousel-caption h3{
+  color:#fff;
+}
+.carousel-caption h2{
+  color:#fff;
+}
+.carousel-caption h5{
+  color:#fff;
+}
 /******************************/
 /*     01. General Styles     */
 /******************************/
