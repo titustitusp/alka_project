@@ -153,3 +153,33 @@ color:grey;
   justify-content:center;
   padding:10px;
 }
+
+.discount-tag{
+  font-size: 0.31cm;
+  color:white;
+  border-radius:9px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  background: linear-gradient(to left,#cc0099,#0099ff);
+}
+
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 2px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-15deg);
+  -moz-transform:rotate(-15deg);
+  -ms-transform:rotate(-15deg);
+  -o-transform:rotate(-15deg);
+  transform:rotate(-15deg);
+}
