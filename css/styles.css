@@ -42,6 +42,27 @@ Colors:
 - Body text - light gray #dfe5ec
 ******************************************/
 /*image slider*/
+.nav .nav-item {
+	display: inline-block;
+	margin-right: 0.1875rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.1875rem;
+	padding: 0.3125rem 1.375rem 0.25rem 1.375rem;
+	border-radius: 0.25rem;
+	background-color: #f1f4f7;
+	color: #7b7e85;
+	font: 700 0.75rem 1.25rem "Montserrat", sans-serif;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.nav .nav-link{text-decoration: none;}
+.nav .nav-item:hover {
+	background-color: #14bf98;
+	color: #fff;
+}
+
+
+
 /*.carousel-item
 {padding-top:50px;
 padding-bottom:50px;
@@ -1192,7 +1213,7 @@ input[type='checkbox'] {
 /*     10. Testimonials     */
 /****************************/
 .slider {
-	padding-top: 6.375rem;
+	padding-top: 5.5rem;
 	padding-bottom: 6.5rem;
 	background-color: #fbfbfb;
 }
@@ -2377,8 +2398,8 @@ a:hover.back-to-top {
 
 	/* Projects */
 	.filter .element-item {
-		width: 17.3125rem; /* to eliminate grid overflow problem on hard refresh */
-		height: 16.875rem;
+		width: 20rem; /* to eliminate grid overflow problem on hard refresh */
+		height: 40.5rem;
 	}
 
 	.filter .element-item .element-item-overlay span {
