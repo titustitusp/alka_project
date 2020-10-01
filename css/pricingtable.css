@@ -183,3 +183,23 @@ color:grey;
   -o-transform:rotate(-15deg);
   transform:rotate(-15deg);
 }
+
+
+.modal-body h5 {
+font-family:verdana;
+color:grey;
+  display: flex;
+  flex-direction: row;
+}
+ .modal-body h5:after{
+  content:"";
+  flex: 1 1;
+  border-bottom: 1px solid grey/*#000*/;
+  margin: auto;
+}
+/*h5:before {
+  margin-right: 10px
+}*/
+.modal-body h5:after {
+  margin-left:10px;
+}
