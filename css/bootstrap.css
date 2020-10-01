@@ -5822,11 +5822,7 @@ a.close.disabled {
 
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
-}exampleModalCenter
-
-.modal-dialog-scrollable .modal-body {
-  overflow-y: auto;
-}mod2
+}
 
 .modal-dialog-centered {
   display: -ms-flexbox;
